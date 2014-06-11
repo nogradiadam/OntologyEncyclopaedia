@@ -1,0 +1,6 @@
+/test-classes/
+/.settings/
+/gwt-unitCache/
+/.classpath
+/.DS_Store
+/.project
