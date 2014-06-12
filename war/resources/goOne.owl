@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/obo/owl/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:oboContent="http://purl.org/obo/owl/" xmlns:oban="http://purl.org/obo/oban/" xmlns:owl11="http://www.w3.org/2006/12/owl11#onClass" xmlns:owl2="http://www.w3.org/2006/12/owl2#onClass" xmlns:obo="http://purl.org/obo/owl/obo#" xmlns:newobo="http://purl.obolibrary.org/obo/" xml:base="http://purl.org/obo/owl/gene_ontology_edit">
+  
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo>releases/2014-05-16</owl:versionInfo>
+    <oboInOwl:hasDate>15:05:2014 11:06</oboInOwl:hasDate>
+    <oboInOwl:savedBy>dph</oboInOwl:savedBy>
+    <oboInOwl:hasDefaultNamespace>gene_ontology</oboInOwl:hasDefaultNamespace>
+    <rdfs:comment>cvs version: use data-version</rdfs:comment>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#Cross_product_review">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involved_in</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goantislim_grouping">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grouping classes that can be excluded</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#gocheck_do_not_annotate">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Term not to be used for direct annotation</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#gocheck_do_not_manually_annotate">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Term not to be used for direct manual annotation</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_aspergillus">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspergillus GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_candida">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candida GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_generic">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generic GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_goa">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOA and proteome slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_metagenomics">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metagenomics GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_pir">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIR GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_plant">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_pombe">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fission yeast GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_virus">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viral GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#goslim_yeast">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yeast GO slim</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#gosubset_prok">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prokaryotic GO subset</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#mf_needs_review">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalytic activity terms in need of attention</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#termgenie_unvetted">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terms created by TermGenie that do not follow a template and require additional vetting by editors</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <oboInOwl:hasSubset>
+      <oboInOwl:Subset rdf:about="http://purl.org/obo/owl/obo#virus_checked">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viral overhaul terms</rdfs:comment>
+      </oboInOwl:Subset>
+    </oboInOwl:hasSubset>
+    <rdfs:label>gene_ontology</rdfs:label>
+    <rdfs:comment>
+          This is an OWL translation of an ontology whose native representational form is .obo. The translation was performed using the oboInOwl xslt library. For details, see http://www.berkeleybop.org/obo-conv.cgi
+        </rdfs:comment>
+  </owl:Ontology>
+
+<owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0000005">
+    <rdfs:label xml:lang="en">ribosomal chaperone activity</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term was made obsolete because it refers to a class of gene products and a biological process rather than a molecular function.</rdfs:comment>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">OBSOLETE. Assists in the correct assembly of ribosomes or ribosomal subunits in vivo, but is not a component of the assembled ribosome when performing its normal biological function.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:jl</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_jl</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>PMID:12150913</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/PMID#PMID_12150913</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:consider rdf:resource="http://purl.org/obo/owl/GO#GO_0042254"/>
+    <oboInOwl:consider rdf:resource="http://purl.org/obo/owl/GO#GO_0044183"/>
+    <oboInOwl:consider rdf:resource="http://purl.org/obo/owl/GO#GO_0051082"/>
+    <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+  </owl:Class>
+
+<owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0035548">
+    <rdfs:label xml:lang="en">negative regulation of interferon-beta secretion</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate, or extent of interferon-beta secretion.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:add</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_add</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:bf</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_bf</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interferon-beta secretion</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interferon-beta secretion</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interferon-beta secretion</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interferon-beta secretion</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IFN-beta secretion</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032688"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0035547"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0050710"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0035546"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+</rdf:RDF>

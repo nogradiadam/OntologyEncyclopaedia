@@ -7,18 +7,18 @@
 
   <!-- Servlets -->
   <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>cs.man.ac.uk.encyclopaedia.server.GreetingServiceImpl</servlet-class>
+    <servlet-name>encServlet</servlet-name>
+    <servlet-class>cs.man.ac.uk.encyclopaedia.server.OntologyEncyclopaediaServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/ontologyencyclopaedia/greet</url-pattern>
+    <servlet-name>encServlet</servlet-name>
+    <url-pattern>/ontologyencyclopaedia/encyclopaedia</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>OntologyEncyclopaedia.html</welcome-file>
+    <welcome-file>OntologyEncyclopaedia.htm</welcome-file>
   </welcome-file-list>
 
 </web-app>
