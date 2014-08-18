@@ -2,12 +2,11 @@ package cs.man.ac.uk.encyclopaedia.client;
 
 import java.util.Map;
 
-
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
@@ -17,7 +16,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 public class OntologyEncyclopaedia implements EntryPoint {
 	
 	private VerticalPanel mainPanel = new VerticalPanel();
-	private Label classDefsLabel = new Label();
+	private FlexTable classesWithDefsFlexTable = new FlexTable();
 	
 	/**
 	 * Create a remote service proxy to talk to the server-side Greeting service.
@@ -29,6 +28,7 @@ public class OntologyEncyclopaedia implements EntryPoint {
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {
+		classesWithDefsFlexTable.getRowFormatter().addStyleName(0, "tableHeader");
 		// Set up the callback object.
 				AsyncCallback<Map<String, String>> callback = new AsyncCallback<Map<String, String>>() {
 					public void onFailure(Throwable caught) {
@@ -36,12 +36,25 @@ public class OntologyEncyclopaedia implements EntryPoint {
 					}
 
 					public void onSuccess(Map<String, String> result) {
-						classDefsLabel.setText(result.get(result.keySet().iterator().next()));
-						mainPanel.add(classDefsLabel);
-						RootPanel.get("classDefs").add(mainPanel);
+						sendClassesAndDefsToFrontEnd (result);
 					}
 				};
 		
 		ontologyEncyclopaediaService.getOntClassesWithDefinitions(callback);
+	}
+	
+	private void sendClassesAndDefsToFrontEnd(Map<String, String> result) {
+		
+		classesWithDefsFlexTable.setText(0,0,"Class Name");
+		classesWithDefsFlexTable.setText(0, 1, "Definition");
+		int classIndex = 1;
+		for (String className : result.keySet()) {
+			classesWithDefsFlexTable.setText(classIndex, 0, className);
+			classesWithDefsFlexTable.setText(classIndex, 1, result.get(className));
+			classIndex++;
+		}
+		
+		mainPanel.add(classesWithDefsFlexTable);
+		RootPanel.get("classDefs").add(mainPanel);
 	}
 }
