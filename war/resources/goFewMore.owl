@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.org/obo/owl/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:oboContent="http://purl.org/obo/owl/" xmlns:oban="http://purl.org/obo/oban/" xmlns:owl11="http://www.w3.org/2006/12/owl11#onClass" xmlns:owl2="http://www.w3.org/2006/12/owl2#onClass" xmlns:obo="http://purl.org/obo/owl/obo#" xmlns:newobo="http://purl.obolibrary.org/obo/" xml:base="http://purl.org/obo/owl/gene_ontology_edit">
+<rdf:RDF xmlns="http://purl.org/obo/owl/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:oboContent="http://purl.org/obo/owl/" xmlns:oban="http://purl.org/obo/oban/" xmlns:owl11="http://www.w3.org/2006/12/owl11#onClass" xmlns:owl2="http://www.w3.org/2006/12/owl2#onClass" xmlns:obo="http://purl.org/obo/owl/obo#" xmlns:newobo="http://purl.obolibrary.org/obo/" xml:base="http://purl.org/obo/owl/gene_ontology_adam">
   
   <owl:Ontology rdf:about="">
     <owl:versionInfo>releases/2014-05-16</owl:versionInfo>
@@ -648,5 +648,1740 @@
       </oboInOwl:DbXref>
     </oboInOwl:hasDbXref>
     <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0016779"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045397">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-23 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-23.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-23 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-23 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-23 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-23 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-23 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045396"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042240"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045398">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-23 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-23.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-23 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-23 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-23 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-23 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-23 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-23 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045396"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042240"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045399">
+    <rdfs:label xml:lang="en">regulation of interleukin-3 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-3.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-3 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-3 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-3 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-3 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-3 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032672"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042223"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045400">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-3 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-3.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-3 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-3 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-3 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-3 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-3 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045399"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042223"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045401">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-3 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-3.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-3 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-3 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-3 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-3 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-3 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-3 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045399"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042223"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045402">
+    <rdfs:label xml:lang="en">regulation of interleukin-4 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-4.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-4 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-4 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-4 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-4 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-4 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032673"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042097"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045403">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-4 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-4.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-4 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-4 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-4 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-4 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-4 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045402"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042097"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045404">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-4 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-4.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-4 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-4 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-4 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-4 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-4 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-4 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045402"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042097"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045405">
+    <rdfs:label xml:lang="en">regulation of interleukin-5 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-5.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-5 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-5 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-5 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-5 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-5 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032674"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042225"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045406">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-5 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-5.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-5 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-5 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-5 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-5 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-5 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045405"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042225"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045407">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-5 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-5.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-5 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-5 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-5 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-5 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-5 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-5 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045405"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042225"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045408">
+    <rdfs:label xml:lang="en">regulation of interleukin-6 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-6.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-6 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-6 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-6 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-6 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-6 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032675"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042226"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045409">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-6 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-6.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-6 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-6 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-6 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-6 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-6 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045408"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042226"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045410">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-6 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-6.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-6 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-6 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-6 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-6 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-6 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-6 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045408"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042226"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045411">
+    <rdfs:label xml:lang="en">regulation of interleukin-7 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-7.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-7 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-7 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-7 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-7 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-7 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032676"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042227"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045412">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-7 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-7.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-7 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-7 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-7 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-7 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-7 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045411"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042227"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045413">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-7 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-7.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-7 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-7 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-7 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-7 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-7 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-7 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045411"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042227"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045414">
+    <rdfs:label xml:lang="en">regulation of interleukin-8 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-8.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-8 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-8 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-8 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-8 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-8 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032677"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042228"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045415">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-8 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-8.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-8 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-8 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-8 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-8 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-8 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045414"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042228"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045416">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-8 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-8.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-8 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-8 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-8 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-8 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-8 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-8 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045414"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042228"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045417">
+    <rdfs:label xml:lang="en">regulation of interleukin-9 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-9.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-9 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of IL-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-9 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-9 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-9 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of interleukin-9 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032678"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042229"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045418">
+    <rdfs:label xml:lang="en">negative regulation of interleukin-9 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-9.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-9 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of IL-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-9 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-9 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-9 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of interleukin-9 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045417"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042229"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045419">
+    <rdfs:label xml:lang="en">positive regulation of interleukin-9 biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of interleukin-9.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">activation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-9 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of IL-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-9 anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-9 biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-9 formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">positive regulation of interleukin-9 synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">stimulation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up regulation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">up-regulation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">upregulation of interleukin-9 biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042108"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045417"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0042229"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045420">
+    <rdfs:label xml:lang="en">regulation of connective tissue growth factor biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of connective tissue growth factor.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of connective tissue growth factor anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of connective tissue growth factor biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of connective tissue growth factor formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">regulation of connective tissue growth factor synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0032643"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042035"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0045189"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0045421">
+    <rdfs:label xml:lang="en">negative regulation of connective tissue growth factor biosynthetic process</rdfs:label>
+    <oboInOwl:hasDefinition>
+      <oboInOwl:Definition>
+        <rdfs:label xml:lang="en">Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of connective tissue growth factor.</rdfs:label>
+        <oboInOwl:hasDbXref>
+          <oboInOwl:DbXref>
+            <rdfs:label>GOC:go_curators</rdfs:label>
+            <oboInOwl:hasURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/GOC#GOC_go_curators</oboInOwl:hasURI>
+          </oboInOwl:DbXref>
+        </oboInOwl:hasDbXref>
+      </oboInOwl:Definition>
+    </oboInOwl:hasDefinition>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down regulation of connective tissue growth factor biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">down-regulation of connective tissue growth factor biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">downregulation of connective tissue growth factor biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasNarrowSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">inhibition of connective tissue growth factor biosynthetic process</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasNarrowSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of connective tissue growth factor anabolism</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of connective tissue growth factor biosynthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of connective tissue growth factor formation</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasExactSynonym>
+      <oboInOwl:Synonym>
+        <rdfs:label xml:lang="en">negative regulation of connective tissue growth factor synthesis</rdfs:label>
+      </oboInOwl:Synonym>
+    </oboInOwl:hasExactSynonym>
+    <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0042036"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0045420"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0045189"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
   </owl:Class>
 </rdf:RDF>
