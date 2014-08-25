@@ -66,6 +66,7 @@ public class OntologyExtractor {
 	
 	//TODO move label finding bit here
 	//TODO: move definition finding bit here
+	//TODO: remove @en lang. tag from definition
 
 	public Map<String, String> getClassesWithDefinitions (List<OWLClass> classes){
 		OWLAnnotationProperty hasDefinition = df.getOWLAnnotationProperty(IRI.create("http://www.geneontology.org/formats/oboInOwl#hasDefinition"));
