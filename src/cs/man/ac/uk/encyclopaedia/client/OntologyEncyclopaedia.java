@@ -32,7 +32,7 @@ public class OntologyEncyclopaedia implements EntryPoint {
 		// Set up the callback object.
 				AsyncCallback<Map<String, String>> callback = new AsyncCallback<Map<String, String>>() {
 					public void onFailure(Throwable caught) {
-						Window.alert("Something's wrong " + caught);
+						GWT.log("Something's wrong " + caught);
 					}
 
 					public void onSuccess(Map<String, String> result) {
