@@ -1,2 +1,0 @@
-serviceClass: cs.man.ac.uk.encyclopaedia.client.GreetingService
-path: 3D152A52B1E95C07E50D9EA23BCA10FD.gwt.rpc
