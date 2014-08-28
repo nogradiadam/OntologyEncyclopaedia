@@ -66,7 +66,11 @@ public class OntologyExtractor {
 	
 	//TODO move label finding bit here
 	//TODO: move definition finding bit here
-	//TODO: remove @en lang. tag from definition
+	
+	// Not the final solution but will do for now
+	private String removeLangTag (String text) {
+		return text.replaceAll("@en", "");
+	}
 
 	public Map<String, String> getClassesWithDefinitions (List<OWLClass> classes){
 		OWLAnnotationProperty hasDefinition = df.getOWLAnnotationProperty(IRI.create("http://www.geneontology.org/formats/oboInOwl#hasDefinition"));
@@ -84,7 +88,7 @@ public class OntologyExtractor {
 					for(OWLAnnotationAssertionAxiom ax:ont.getAnnotationAssertionAxioms(i)) {
 						if(ax.getProperty().equals(rdfsLabel)) {
 							OWLAnnotationValue av = ax.getValue();
-							classesWithDefs.put(cl.toString(), av.toString());
+							classesWithDefs.put(cl.toString(), removeLangTag(av.toString()));
 						}
 					}
 				}
