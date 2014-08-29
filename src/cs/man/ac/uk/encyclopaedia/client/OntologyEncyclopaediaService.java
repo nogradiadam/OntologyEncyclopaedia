@@ -9,5 +9,5 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
  */
 @RemoteServiceRelativePath("encyclopaedia")
 public interface OntologyEncyclopaediaService extends RemoteService {
-	Map<String, String> getOntClassesWithDefinitions() throws IllegalArgumentException;
+	Map<String, String> getOntClassesWithDefinitions() throws NullPointerException;
 }

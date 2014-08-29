@@ -18,13 +18,17 @@ public class OntologyEncyclopaediaServiceImpl extends RemoteServiceServlet imple
 		OntologyEncyclopaediaService {
 
 	@Override
-	public Map<String, String> getOntClassesWithDefinitions()
-			throws IllegalArgumentException {
+	public Map<String, String> getOntClassesWithDefinitions() throws NullPointerException {
 		File goont = new File(System.getProperty("user.dir") + "/resources/goFewMore.owl");
 		OntologyExtractor handler = new OntologyExtractor();
 		handler.loadOntology(goont);
 		List<OWLClass> nonObsoleteClasses = handler.getNonObsoleteClasses();
-		Map<String, String> classesWithDefinitions =  handler.getClassesWithDefinitions(nonObsoleteClasses);
+		Map<String, String> classesWithDefinitions = null;
+		try {
+			classesWithDefinitions =  handler.getClassesWithDefinitions(nonObsoleteClasses);
+		} catch (NullPointerException e) {
+			System.out.println("here");
+		}
 		
 		return classesWithDefinitions;
 	}

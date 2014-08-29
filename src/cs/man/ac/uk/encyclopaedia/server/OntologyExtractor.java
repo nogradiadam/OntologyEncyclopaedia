@@ -24,11 +24,14 @@ import org.semanticweb.owlapi.model.OWLOntologyManager;
 
 import uk.ac.manchester.cs.owl.owlapi.OWLAnonymousIndividualImpl;
 
-//TODO refactor this class 
 public class OntologyExtractor {
+	
 	private final String OBSOLETE_CLASS_URI = "<http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>";
 	private OWLOntology ont;
 	private OWLDataFactory df;
+	
+	Map<String, String> classesWithLabels = new TreeMap <String, String> ();
+	Map<String, String> classesWithDefs = new TreeMap <String, String> ();
 
 	public void loadOntology (File ontURI) {
 		OWLOntologyManager man = OWLManager.createOWLOntologyManager();
@@ -64,46 +67,46 @@ public class OntologyExtractor {
 		return nonObsoleteList;
 	}
 	
-	//TODO move label finding bit here
-	//TODO: move definition finding bit here
+	private void getClassDefinitions (OWLClass cl) {
+		OWLAnnotationProperty hasDefinition = df.getOWLAnnotationProperty(IRI.create("http://www.geneontology.org/formats/oboInOwl#hasDefinition"));
+		OWLAnnotationProperty rdfsLabel = df.getRDFSLabel();
+		Set<OWLAnnotation> definition = cl.getAnnotations(ont, hasDefinition);
+		for(OWLAnnotation anno:definition) {
+			OWLAnnotationValue value = anno.getValue();
+			if(value instanceof OWLAnonymousIndividualImpl) {
+				OWLAnonymousIndividual i = (OWLAnonymousIndividualImpl)value;
+				for(OWLAnnotationAssertionAxiom ax:ont.getAnnotationAssertionAxioms(i)) {
+					if(ax.getProperty().equals(rdfsLabel)) {
+						OWLAnnotationValue av = ax.getValue();
+						classesWithDefs.put(cl.toString(), removeLangTag(av.toString()));
+					}
+				}
+			}
+		}
+	}
+	
+	private void getClassLabels (OWLClass cl) {
+		for (OWLAnnotation annotation : cl.getAnnotations(ont, df.getRDFSLabel())) {
+			if (annotation.getValue() instanceof OWLLiteral) {
+			    OWLLiteral val = (OWLLiteral) annotation.getValue();
+			    classesWithLabels.put(cl.toString(), val.getLiteral());
+			   }
+		}
+	}
 	
 	// Not the final solution but will do for now
 	private String removeLangTag (String text) {
 		return text.replaceAll("@en", "");
 	}
 
-	public Map<String, String> getClassesWithDefinitions (List<OWLClass> classes){
-		OWLAnnotationProperty hasDefinition = df.getOWLAnnotationProperty(IRI.create("http://www.geneontology.org/formats/oboInOwl#hasDefinition"));
-		OWLAnnotationProperty rdfsLabel = df.getRDFSLabel();
-		Map<String, String> classesWithDefs = new TreeMap <String, String> ();
-		Map<String, String> classesWithLabels = new TreeMap <String, String> ();
+	public Map<String, String> getClassesWithDefinitions (List<OWLClass> classes) throws NullPointerException{
 		
-
 		for(OWLClass cl:classes) {
-			Set<OWLAnnotation> definition = cl.getAnnotations(ont, hasDefinition);
-			for(OWLAnnotation anno:definition) {
-				OWLAnnotationValue value = anno.getValue();
-				if(value instanceof OWLAnonymousIndividualImpl) {
-					OWLAnonymousIndividual i = (OWLAnonymousIndividualImpl)value;
-					for(OWLAnnotationAssertionAxiom ax:ont.getAnnotationAssertionAxioms(i)) {
-						if(ax.getProperty().equals(rdfsLabel)) {
-							OWLAnnotationValue av = ax.getValue();
-							classesWithDefs.put(cl.toString(), removeLangTag(av.toString()));
-						}
-					}
-				}
-			}
-			
-			for (OWLAnnotation annotation : cl.getAnnotations(ont, df.getRDFSLabel())) {
-				if (annotation.getValue() instanceof OWLLiteral) {
-				    OWLLiteral val = (OWLLiteral) annotation.getValue();
-				    classesWithLabels.put(cl.toString(), val.getLiteral());
-				   }
-			}
+			getClassDefinitions(cl);
+			getClassLabels(cl);
 		}
 		
 		Map<String, String> labelsWithDefs = new TreeMap <String, String> ();
-		// TODO: if key is not found this'll throw an exception
 		for (String key : classesWithDefs.keySet()) {
 			labelsWithDefs.put(classesWithLabels.get(key), classesWithDefs.get(key));
 		}

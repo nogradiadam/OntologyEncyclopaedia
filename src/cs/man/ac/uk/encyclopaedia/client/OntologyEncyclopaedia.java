@@ -32,14 +32,20 @@ public class OntologyEncyclopaedia implements EntryPoint {
 		// Set up the callback object.
 				AsyncCallback<Map<String, String>> callback = new AsyncCallback<Map<String, String>>() {
 					public void onFailure(Throwable caught) {
-						GWT.log("Something's wrong " + caught);
+						GWT.log("Error loading the module... \n", caught);
+						Window.alert("Something's wrong...\n" + caught);
 					}
 
 					public void onSuccess(Map<String, String> result) {
+						try {
 						sendClassesAndDefsToFrontEnd (result);
+						} catch (NullPointerException e) {
+							GWT.log("Class labels and definitions don't match...\n", e);
+							Window.alert("Error while loading the dataset... \n" + e);
+						}
 					}
 				};
-		
+				
 		ontologyEncyclopaediaService.getOntClassesWithDefinitions(callback);
 	}
 	
