@@ -23,12 +23,7 @@ public class OntologyEncyclopaediaServiceImpl extends RemoteServiceServlet imple
 		OntologyExtractor handler = new OntologyExtractor();
 		handler.loadOntology(goont);
 		List<OWLClass> nonObsoleteClasses = handler.getNonObsoleteClasses();
-		Map<String, String> classesWithDefinitions = null;
-		try {
-			classesWithDefinitions =  handler.getClassesWithDefinitions(nonObsoleteClasses);
-		} catch (NullPointerException e) {
-			System.out.println("here");
-		}
+		Map<String, String>	classesWithDefinitions =  handler.getClassesWithDefinitions(nonObsoleteClasses);
 		
 		return classesWithDefinitions;
 	}

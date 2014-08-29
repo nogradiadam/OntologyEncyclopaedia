@@ -6,7 +6,9 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.google.gwt.user.client.ui.Anchor;
 import com.google.gwt.user.client.ui.FlexTable;
+import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
@@ -16,6 +18,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 public class OntologyEncyclopaedia implements EntryPoint {
 	
 	private VerticalPanel mainPanel = new VerticalPanel();
+	private HorizontalPanel alphabetPanel = new HorizontalPanel();
 	private FlexTable classesWithDefsFlexTable = new FlexTable();
 	
 	/**
@@ -43,6 +46,8 @@ public class OntologyEncyclopaedia implements EntryPoint {
 							GWT.log("Class labels and definitions don't match...\n", e);
 							Window.alert("Error while loading the dataset... \n" + e);
 						}
+						
+						createAlphabet();
 					}
 				};
 				
@@ -60,7 +65,15 @@ public class OntologyEncyclopaedia implements EntryPoint {
 			classIndex++;
 		}
 		
+		mainPanel.add(alphabetPanel);
 		mainPanel.add(classesWithDefsFlexTable);
 		RootPanel.get("classDefs").add(mainPanel);
+	}
+	
+	private void createAlphabet () {
+		Anchor a = new Anchor ("A", "A.html");
+		Anchor n = new Anchor ("N", "N.html");
+		alphabetPanel.add(a);
+		alphabetPanel.add(n);
 	}
 }

@@ -1,2 +1,0 @@
-serviceClass: cs.man.ac.uk.encyclopaedia.client.OntologyEncyclopaediaService
-path: 15917F90655FADFE172A74D56BE7A6E9.gwt.rpc
