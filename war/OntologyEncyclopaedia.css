@@ -3,3 +3,12 @@
   color: white;
   font-style: italic;
 }
+
+.tableStyle {
+	border:1px solid black;
+	background-color: #ADACAC;
+}
+
+.tableColumn {
+	border-right:1px solid black;
+}

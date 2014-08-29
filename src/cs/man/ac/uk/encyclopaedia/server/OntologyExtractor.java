@@ -73,7 +73,6 @@ public class OntologyExtractor {
 		Set<OWLAnnotation> definition = cl.getAnnotations(ont, hasDefinition);
 		for(OWLAnnotation anno:definition) {
 			OWLAnnotationValue value = anno.getValue();
-			if(value instanceof OWLAnonymousIndividualImpl) {
 				OWLAnonymousIndividual i = (OWLAnonymousIndividualImpl)value;
 				for(OWLAnnotationAssertionAxiom ax:ont.getAnnotationAssertionAxioms(i)) {
 					if(ax.getProperty().equals(rdfsLabel)) {
@@ -81,16 +80,13 @@ public class OntologyExtractor {
 						classesWithDefs.put(cl.toString(), removeLangTag(av.toString()));
 					}
 				}
-			}
 		}
 	}
 	
 	private void getClassLabels (OWLClass cl) {
 		for (OWLAnnotation annotation : cl.getAnnotations(ont, df.getRDFSLabel())) {
-			if (annotation.getValue() instanceof OWLLiteral) {
 			    OWLLiteral val = (OWLLiteral) annotation.getValue();
 			    classesWithLabels.put(cl.toString(), val.getLiteral());
-			   }
 		}
 	}
 	

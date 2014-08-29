@@ -62,6 +62,8 @@ public class OntologyEncyclopaedia implements EntryPoint {
 		for (String className : result.keySet()) {
 			classesWithDefsFlexTable.setText(classIndex, 0, className);
 			classesWithDefsFlexTable.setText(classIndex, 1, result.get(className));
+			classesWithDefsFlexTable.getRowFormatter().addStyleName(classIndex, "tableStyle");
+			classesWithDefsFlexTable.getColumnFormatter().addStyleName(0, "tableColumn");
 			classIndex++;
 		}
 		
